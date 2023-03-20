@@ -148,10 +148,8 @@ p {
 
 }
 
-@media screen and (min-width: 769px){
-    nav li{
-        display: inline-block
-    }
+@media screen and (min-width: 850px){
+
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
