@@ -99,6 +99,15 @@ p {
 .dictionary body {
     background-color: transparent;
 }
+.dict_content {
+    display: flex;
+    flex-direction: column;
+    columns: 1fr 3fr;
+    column-gap: 15px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 228, 196, 0.506) ;
+}
 
 .typing {
     color: black;
@@ -144,16 +153,18 @@ p {
     nav li{
         display: inline-block
     }
-
-
 }
 
 @media screen and (min-width: 850px){
-
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
+    }
+    .dict_content {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
     }
 
 }
