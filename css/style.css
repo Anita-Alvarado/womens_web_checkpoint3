@@ -1,8 +1,16 @@
 nav {
-    background-color: white;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    overflow: auto;
     text-align: center;
 }
 
+nav a:hover {
+    background-color: rgb(179, 67, 179);
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
 
 body{
 	padding: 10px;
@@ -132,10 +140,11 @@ p {
     }
 }
 
-@media screen and (min-width: 961px){
+@media screen and (min-width: 800px){
     nav li{
         display: inline-block
     }
+
 
 }
 
@@ -147,5 +156,6 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
-        }
     }
+
+}
